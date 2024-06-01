@@ -1,13 +1,31 @@
-html{
-    font-size: 33px;
-
-}
-header{
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 h1{
     border: rebeccapurple dashed 2px;
     width: 70%;
     font-size: 3rem;
     padding: 1rem;
+}
+.con{
+    border: 2px red dashed;
+    font-size: 1.5rem;
+    border: 10px double blue;
+    margin: 1.rem;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border-top: 5px solid;
+    border-right: 5px dotted;
+    outline: 10px solid black;
+    outline-offset: 10px solid rgb(207, 124, 124);
+}
+.circle{
+    width:200px;
+    height:200px;background-color: gold;
+    border: solid black;
+    margin: 3rem auto;  
+    outline: 6px solid red;
+    border-radius: 100px;
 }
