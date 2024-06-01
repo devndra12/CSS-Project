@@ -1,29 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
 body{
-    padding: 5%;
-    font-size: 2rem;
-    font-family: 'Times New Roman', Times, serif;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    min-height: 200vh;
 }
-ol{
-    list-style-type: none;
+.outer-container{
+    border: 3px dashed black;
+    width: 75vw;
+    height: 85vw;
+    margin: 40px auto;
+    position: relative;
+
 }
-ul{
-    text-align: center;
-    list-style-type: square;
-    list-style-position: outside;
-    color: aquamarine;
-    line-height: 1.7;
-    list-style-image: url("../images/checkmark.png");
-    
+
+.inner-container{
+    border: 2px solid blue;
+    width:40vw;
+    height: 50vw;
+    margin:100px auto;
 }
-ul li{
- color:red ;
+.box{
+    width:150;
+    height: 150px;
+    color:aliceblue;
+    padding: 1rem;
 }
-ul li:nth-child(even){
-    color: aqua;
-}
-::marker{
-    color:green;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
-    content:"$33";
+.absolute{
+       background-color: blue;
+       
+       top: 0;
+       left: 0;
+       position:absolute;
 }
