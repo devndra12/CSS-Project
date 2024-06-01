@@ -1,7 +1,13 @@
-body{
-    font-size: 27px;
-    font-family:Arial, Helvetica, sans-serif;
-    line-height: 1.5134451;
-    background-color: rgb(241, 241, 238);
-    color:darkblue;                                     
+html{
+    font-size: 33px;
+
+}
+header{
+    width: 100%;
+}
+h1{
+    border: rebeccapurple dashed 2px;
+    width: 70%;
+    font-size: 3rem;
+    padding: 1rem;
 }
