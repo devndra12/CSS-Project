@@ -1,39 +1,49 @@
 *{
     margin: 0;
-    padding:0;
-    box-sizing: border-box;
+    padding: 0;
+    box-sizing:border-box;
 }
+
+
 body{
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.5rem;
-    min-height: 200vh;
-}
-.outer-container{
-    border: 3px dashed black;
-    width: 75vw;
-    height: 85vw;
-    margin: 40px auto;
-    position: relative;
+font-size: 2rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
-.inner-container{
-    border: 2px solid blue;
-    width:40vw;
-    height: 50vw;
-    margin:100px auto;
+/* p{
+    background-color: lightgray;
+    margin: 100px 50px;
 }
-.box{
-    width:150;
-    height: 150px;
-    color:aliceblue;
-    padding: 1rem;
+.opposite{
+    display: inline-block;
+    background-color: gray;
+    color:whitesmoke;
+    margin-top: 100px;
+    height: 200px;
+    padding: 4rem;
+} */
+
+ul{
+    list-style-type:none;
+    padding-left: 0;
+    text-align: right;
+    background-color: rgb(223, 138, 138);
+    margin: 0;
 }
-.absolute{
-       background-color: blue;
-       
-       top: 0;
-       left: 0;
-       position:absolute;
+
+
+li{
+    display: inline-block;
+    margin-inline:0.5rem
+}
+li{
+    display: none;
+}
+li a{
+    color:rgb(3, 101, 187);
+    text-decoration: none;
+}
+li a:hover,li a:focus{
+    text-decoration: underline;
 }
